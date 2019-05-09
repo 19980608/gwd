@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	 border:0;
+    outline:none;
+    vertical-align:baseline;
+}
+img {
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+    font-size: 1rem;
+}
+html, body {
+    font-size: 10px;
+}

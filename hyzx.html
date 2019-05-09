@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/hyzx.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="top">
+				<ul>
+				<li>〈</li>
+				<li>铂金会员</li>
+				<li>...</li>
+				</ul>
+			</div>
+			
+		</header>
+		<section>
+			<div class="body">
+				<ul>
+					<li>专享价</li>
+					<li>免费区</li>
+					<li>运费卷</li>
+				</ul>
+			</div>
+			<div class="body-2">
+					<ul>
+						<li class="yi"><img src="img/sf-6.jpg"/></li>
+						<li class="er"  style="display: none;"><img src="img/sf-7.jpg"/ ></li>
+						<li class="san"  style="display: none;"><img src="img/sf-5.jpg"/ ></li>
+					</ul>
+			</div>
+		</section>
+	</body>
+	<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/shouye.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    	$('.body>ul>li').click(function(){
+    		$(this).addClass('add').siblings().removeClass('add');
+    	})
+    	$('.body>ul>li:nth-child(1)').click(function(){
+    		$('.yi').show().siblings().hide();
+    	})
+    	$('.body>ul>li:nth-child(2)').click(function(){
+    		$('.er').show().siblings().hide();
+    	})
+    	$('.body>ul>li:nth-child(3)').click(function(){
+    		$('.san').show().siblings().hide();
+    	})
+    </script>
+</html>

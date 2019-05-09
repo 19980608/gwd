@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	padding: 0;
+	 border:0;
+    outline:none;
+    vertical-align:baseline;
+}
+img {
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+    font-size: 1rem;
+}
+html, body {
+    font-size: 10px;
+}
+header{
+	width: 100%;
+}
+.top{
+	width: 100%;
+	height: 4rem;
+	position: fixed;
+	z-index: 99;
+	line-height: 4rem;
+	background-color: peachpuff;
+}
+.top>input{
+	width: 60%;
+	height: 3rem;
+	margin-left: 20%;
+	border-radius: 4rem;
+	opacity: 0.5;
+	
+}
+section{
+	width: 100%;
+}
+.body{
+	width: 100%;
+	position: relative;
+	top: 4rem;
+	overflow: auto;
+}
+.body>ul{
+	position: relative;
+	width: 400%;
+	display: flex;
+}
+.body>ul>li{
+	width: 25%;
+}
+.body>ul>li>img{
+	width: 100%;
+	height: 16rem;
+}
+.anniu{
+	width: 20%;
+	height: 2rem;
+	position: absolute;
+	top: 14rem;
+	left: 40%;
+}
+.anniu>ul{
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+.anniu>ul>li{
+	width:10%;
+	height: 0.7rem;
+	background: white;
+	border-radius: 1rem;
+	margin: auto;
+}
+
+.anniu>ul>.yanse{
+	background: red;
+}
+.body-2{
+	width: 100%;
+	position: relative;
+	top: 4rem;
+}
+.body-2>ul{
+	display: flex;
+	justify-content: space-around;
+}
+.body-2>ul>li{
+	width: 3rem;
+	height: 3rem;
+	border-radius: 100%;
+}
+.wenzi{
+	width: 100%;
+	position: relative;
+	top: 4.5rem;
+}
+.wenzi>ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	flex-grow: inherit;
+}
+.wenzi>ul>li{
+	height: 2rem;
+	text-align: center;
+	font-size: 0.8rem;
+}
+.body-3{
+	width: 100%;
+	position: relative;
+	top: 5rem;
+}
+.body-3>ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+.body-3>ul>li{
+	width: 45%;
+	height: 7rem;
+}
+.body-3>ul>li>img{
+	width: 100%;
+	height: 7rem;
+}
+.body-4{
+	width: 100%;
+	position: relative;
+	top: 6rem;
+}
+.body-4>ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+.body-4>ul>li{
+	width: 20%;
+}
+.body-4>ul>li>img{
+	width: 100%;
+	height: 10rem;
+}
+.body-5{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 7rem;
+}
+.body-5>img{
+	width: 95%;
+	height: 10rem;
+}
+.body-5-5{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 9rem;
+}
+.body-5-5>img{
+	width: 95%;
+	height: 10rem;
+}
+.body-6{
+	width: 105%;
+	position: relative;
+	top: 8rem;
+	overflow: auto;
+	
+}
+.body-6>ul{
+	width: 165%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+.body-6>ul>li{
+	width: 41%;
+	text-align: center;
+}
+.body-6>ul>li>img{
+	width: 100%;
+	height: 7rem;
+}
+.body-7{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 9rem;
+}
+.body-7>img{
+	width: 95%;
+	height: 10rem;
+}
+.body-8{
+	width: 105%;
+	position: relative;
+	top: 8rem;
+	overflow: auto;
+	
+}
+.body-8>ul{
+	width: 120%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+.body-8>ul>li{
+	width: 30%;
+	text-align: center;
+}
+.body-8>ul>li>img{
+	width: 95%;
+	height: 7rem;
+}
+.body-9{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 9rem;
+}
+.body-9>img{
+	width: 95%;
+	height: 7rem;
+}
+.body-10{
+	width: 100%;
+	position: relative;
+	top: 9rem;
+}
+.body-10>ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+.body-10>ul>li{
+	width: 50%;
+	text-align: center;
+	font-size: 1rem;
+}
+.body-10>ul>li>img{
+ width: 100%;
+ height: 15rem;	
+}
+
+footer{
+	width: 100%;
+	height: 4rem;
+	position: relative;
+	top: 10rem;
+}
+.foot{
+	width: 100%;
+    height: 4rem;
+	background: white;
+	position: fixed;
+	bottom: 0rem;
+}
+.foot>ul{
+	display: flex;
+	justify-content: space-around;
+}
+.foot>ul>li{
+	width: 4rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+}
